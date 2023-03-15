@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">uaustore</string>
+
+    <string-array name="categorias">
+        <item>Tecnologia</item>
+        <item>Roupa</item>
+        <item>Trem</item>
+        <item>Carro</item>
+
+
+    </string-array>
+
+</resources>

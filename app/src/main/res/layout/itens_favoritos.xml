@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/item_imagem"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="6dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cptm3000"
+        app:shapeAppearance="@style/arredondada_12" />
+
+    <TextView
+        android:id="@+id/item_nome"
+        android:layout_marginRight="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/pretomaisclaro"
+        tools:text="nome do item"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@id/item_imagem"
+        android:layout_toStartOf="@id/estrela"
+        android:singleLine="true"/>
+
+    <ImageView
+        android:id="@+id/estrela"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="4dp"
+        android:src="@drawable/ic_estrela"
+        app:tint="@color/preto"
+        android:layout_toStartOf="@id/starrate"/>
+
+    <TextView
+        android:id="@+id/starrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/pretomaisclaro"
+        tools:text="3.6"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="2dp"
+        android:layout_toStartOf="@id/quantidade_avaliacoes"
+        android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/quantidade_avaliacoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/pretomaisclaro"
+        tools:text="(6)"
+        android:textSize="10sp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="6dp"
+        android:layout_toStartOf="@id/menu_fav"
+        android:singleLine="true"/>
+
+
+        <ImageView
+            android:id="@+id/menu_fav"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="2dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_3dot"/>
+
+
+    <TextView
+        android:id="@+id/item_preco_promo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_nome"
+        android:textSize="16sp"
+        android:textColor="@color/preto"
+        tools:text="R$ 43,45"
+        android:layout_toEndOf="@id/item_imagem"/>
+
+    <TextView
+        android:id="@+id/item_preco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/item_imagem"
+        android:layout_below="@id/item_preco_promo"
+        tools:text="R$ 45.30"/>
+
+    <TextView
+        android:id="@+id/porcentagem_desconto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="34.56%"
+        android:textSize="12sp"
+        android:layout_below="@id/item_nome"
+        android:layout_marginLeft="4dp"
+        android:textColor="@color/vermelhomeiorosadoeuacho"
+        android:layout_toEndOf="@id/item_preco_promo"/>
+
+    <TextView
+        android:id="@+id/quantidade_vendas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="34 vendidos"
+        android:layout_below="@id/starrate"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="8dp"/>
+
+     <TextView
+         android:id="@+id/item_descricao"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginRight="6dp"
+         android:layout_below="@id/item_preco"
+         tools:text="descricao descricao descricao descricao descricao descricao "
+         android:singleLine="true"
+         android:layout_toEndOf="@id/item_imagem"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    tools:context=".ui.perfil.Perfil_comprados">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="4dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imagem_comprado"
+            android:layout_width="56dp"
+            tools:src="@drawable/frotafverde"
+            android:scaleType="centerCrop"
+            android:layout_alignParentStart="true"
+            android:layout_height="56dp"/>
+
+        <TextView
+            android:id="@+id/nome_comprado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:textSize="14sp"
+            android:singleLine="true"
+            android:layout_toEndOf="@id/imagem_comprado"
+            tools:text="nome do item"/>
+
+        <TextView
+            android:id="@+id/categoria_comprado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:textSize="12sp"
+            android:singleLine="true"
+            android:layout_below="@id/nome_comprado"
+            android:layout_toEndOf="@id/imagem_comprado"
+            tools:text="categoria do item"/>
+
+        <TextView
+            android:id="@+id/preco_comprado_promocao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:singleLine="true"
+            android:textSize="13sp"
+            android:layout_below="@id/categoria_comprado"
+            android:layout_toEndOf="@id/imagem_comprado"
+            tools:text="R$ 445"/>
+
+        <TextView
+            android:id="@+id/preco_comprado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="12sp"
+            android:layout_below="@id/categoria_comprado"
+            android:layout_toEndOf="@id/preco_comprado_promocao"
+            android:layout_marginLeft="5dp"
+            tools:text="255"/>
+
+        <TextView
+            android:id="@+id/data_comprado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="5dp"
+            tools:text="34/76/3005 34:64"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/botao_avaliar"
+            android:layout_width="90dp"
+            android:layout_height="32dp"
+            android:text="Avaliar"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:backgroundTint="#989898"
+            android:background="@drawable/shape6dp"
+            android:layout_alignParentEnd="true"/>
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

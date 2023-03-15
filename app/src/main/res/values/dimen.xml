@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="half_screen_width">50%</dimen>
+    <dimen name="spacing">8dp</dimen>
+
+    <style name="spacificCornerRounded">
+        <item name="cornerSizeTopRight">6dp</item>
+        <item name="cornerSizeTopLeft">6dp</item>
+    </style>
+</resources>

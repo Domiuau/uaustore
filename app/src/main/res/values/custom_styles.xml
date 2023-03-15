@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="arredondada">
+        <item name="cornerSize">6%</item>
+    </style>
+    <style name="arredondada_2">
+        <item name="cornerSize">2%</item>
+    </style>
+
+    <style name="arredondada_4">
+        <item name="cornerSize">4%</item>
+    </style>
+
+    <style name="arredondada_12">
+        <item name="cornerSize">24%</item>
+    </style>
+    <style name="arredondada_16">
+        <item name="cornerSize">16%</item>
+    </style>
+    <style name="arredondada_48">
+        <item name="cornerSize">48%</item>
+    </style>
+</resources>

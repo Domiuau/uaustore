@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.Entrada">
+
+    <Button
+        android:id="@+id/inicio"
+        android:layout_width="match_parent"
+        android:backgroundTint="#FF0000"
+        android:layout_height="wrap_content"
+        android:text="inicio"/>
+    <Button
+        android:id="@+id/cadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cadastro"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"/>
+    <Button
+        android:id="@+id/perfil_foto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="perfil"/>
+
+    <Button
+        android:id="@+id/anunciarteste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="anunciarteste"/>
+
+
+
+</LinearLayout>

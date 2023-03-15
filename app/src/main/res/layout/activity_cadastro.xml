@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".ui.Cadastro">
+
+    <ImageView
+        android:id="@+id/input_foto"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/input_usuario"
+        android:hint="USUARIO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/input_email"
+        android:hint="EMAIL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/input_senha"
+        android:hint="SENHA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/input_nome"
+        android:layout_width="match_parent"
+        android:hint="NOME"
+        android:layout_height="wrap_content"/>
+
+    <ToggleButton
+        android:id="@+id/input_privada"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/criar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="criar conta"/>
+
+</LinearLayout>

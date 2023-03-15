@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    tools:context=".ui.perfil.Perfil_comprados">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="4dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginRight="6dp"
+            android:id="@+id/imagem_anunciados"
+            android:layout_width="90dp"
+            tools:src="@drawable/frotafverde"
+            android:scaleType="centerCrop"
+            android:layout_alignParentStart="true"
+            android:layout_height="90dp"/>
+
+        <TextView
+            android:id="@+id/nome_anunciados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/imagem_anunciados"
+            tools:text="nome do item"/>
+
+        <TextView
+            android:id="@+id/categoria_anunciados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:singleLine="true"
+            android:layout_below="@id/nome_anunciados"
+            android:layout_toEndOf="@id/imagem_anunciados"
+            tools:text="categoria do item"/>
+
+        <TextView
+            android:id="@+id/preco_anunciados_promocao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="13sp"
+            android:layout_below="@id/categoria_anunciados"
+            android:layout_toEndOf="@id/imagem_anunciados"
+            tools:text="R$ 445"/>
+
+        <TextView
+            android:id="@+id/descricao_anunciados"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:ellipsize="end"
+            android:layout_below="@id/preco_anunciados_promocao"
+            android:textSize="10sp"
+            android:maxLines="3"
+            tools:text="descricao descricao descricao descricao descricao descricao descricao descricao descricao descricao descricao descricao descricao "
+            android:layout_toEndOf="@id/imagem_anunciados"
+            android:layout_marginRight="6dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@id/excluir"/>
+
+
+        <TextView
+            android:id="@+id/preco_anunciados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="12sp"
+            android:layout_below="@id/categoria_anunciados"
+            android:layout_toEndOf="@id/preco_anunciados_promocao"
+            android:layout_marginLeft="5dp"
+            tools:text="255"/>
+
+        <TextView
+            android:id="@+id/data_anunciados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="5dp"
+            tools:text="34/56/2000 56:40"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/atualizar"
+            android:layout_width="90dp"
+            android:layout_height="32dp"
+            android:text="Atualizar"
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/data_anunciados"
+            android:textColor="@color/white"
+            android:backgroundTint="#2196F3"
+            android:background="@drawable/shape6dp"
+            android:layout_alignParentEnd="true"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/excluir"
+            android:layout_width="90dp"
+            android:layout_height="32dp"
+            android:text="Excluir"
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/atualizar"
+            android:textColor="@color/white"
+            android:backgroundTint="#FF0000"
+            android:background="@drawable/shape6dp"
+            android:layout_alignParentEnd="true"/>
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

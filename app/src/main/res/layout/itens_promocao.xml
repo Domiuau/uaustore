@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:id="@+id/parent_cons"
+    android:background="@drawable/stroke10dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:padding="1dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imagem_item_promo"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:clipToOutline="true"
+            android:scaleType="centerCrop"
+            app:shapeAppearance="@style/spacificCornerRounded"
+            tools:src="@drawable/teclado" />
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:background="@drawable/circulo"
+            android:backgroundTint="#AD000000"
+            android:layout_width="wrap_content"
+            android:layout_alignRight="@id/imagem_item_promo"
+            android:layout_alignTop="@id/imagem_item_promo"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:layout_marginRight="6dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/favorito"
+                android:layout_width="12dp"
+                android:visibility="gone"
+                android:layout_height="12dp"
+                android:layout_margin="4dp"
+                android:src="@drawable/ic_favorite_true"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:background="@drawable/circulo"
+            android:backgroundTint="#AD000000"
+            android:layout_width="wrap_content"
+            android:layout_toStartOf="@id/linear1"
+            android:layout_alignTop="@id/imagem_item_promo"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:layout_marginRight="2dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/carrinho"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            app:tint="@color/amarelo"
+            android:layout_margin="4dp"
+            android:visibility="gone"
+            android:src="@drawable/ic_carrinho"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_below="@id/imagem_item_promo"
+            android:background="@drawable/shape6dpbaixo"
+            android:backgroundTint="#F4F4F4"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/rs"
+                android:layout_width="wrap_content"
+                android:textColor="#000000"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:layout_above="@id/item_quantidade_vendidos"
+                android:layout_height="wrap_content"
+                android:text="R$ "/>
+
+            <TextView
+                android:id="@+id/preco_item_normal"
+                android:layout_width="wrap_content"
+                android:textColor="#000000"
+                android:gravity="bottom"
+                android:textStyle="bold"
+                android:layout_marginBottom="-2.1dp"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/rs"
+                android:text="300"/>
+
+            <TextView
+                android:id="@+id/preco_item_normal1"
+                android:layout_width="wrap_content"
+                android:textColor="#000000"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:layout_above="@id/item_quantidade_vendidos"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/preco_item_normal"
+                android:text=",000"/>
+
+            <TextView
+                android:id="@+id/preco_item_promo"
+                android:layout_width="wrap_content"
+                android:textColor="#606060"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="4dp"
+                android:layout_above="@id/item_quantidade_vendidos"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/preco_item_normal1"
+                tools:text="45,00"/>
+
+            <TextView
+                android:id="@+id/porcentagem_promo"
+                android:layout_width="wrap_content"
+                android:textColor="#F2FF0000"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="4dp"
+                android:layout_above="@id/item_quantidade_vendidos"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="3dp"
+                tools:text="45%off"/>
+
+
+            <ImageView
+                android:id="@+id/estrela"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                app:tint="@color/black"
+                android:layout_marginLeft="3dp"
+                android:layout_below="@id/preco_item_normal"
+                android:layout_marginTop="3dp"
+                android:layout_toEndOf="@id/item_quantidade_vendidos"
+                android:src="@drawable/ic_estrela" />
+
+            <TextView
+                android:id="@+id/item_starrate_promo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/estrela"
+                android:layout_below="@id/preco_item_normal1"
+                android:textColor="@color/black"
+                android:layout_marginLeft="3dp"
+                android:text="5,3"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/item_quantidade_avaliacaoes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="3dp"
+                tools:text="(56)"
+                android:layout_toEndOf="@id/item_starrate_promo"
+                android:layout_below="@id/preco_item_normal1"
+                android:textSize="11sp" />
+
+
+
+            <TextView
+                android:id="@+id/nome_item_promo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#232323"
+                android:layout_below="@id/item_quantidade_vendidos"
+                android:text="Teclado mecânico redragon"
+                android:singleLine="true"
+                android:layout_marginTop="-2dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/item_quantidade_vendidos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/preco_item_normal"
+                android:textColor="#232323"
+                android:layout_marginTop="1dp"
+                tools:text="45 vendidos"
+                android:textSize="13sp" />
+
+        </RelativeLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</LinearLayout>
