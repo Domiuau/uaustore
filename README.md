@@ -7,19 +7,19 @@
 # Principais funcionalidades
 - Criar conta e anunciar um produto, colocando fotos, descrições, categorias e etc...
 
-![Anunciar produto](https://github.com/Domiuau/uaustore/blob/master/Assets/store1.jpg) 
+![Anunciar produto](https://github.com/Domiuau/uaustore/blob/master/Assets/store1.png) 
 
 - Inicio do aplicativo, onde os produtos são listados e outras funcionalidades da aplicação são acessadas
 
-![Inicio](https://github.com/Domiuau/uaustore/blob/master/Assets/store2.jpg) 
+![Inicio](https://github.com/Domiuau/uaustore/blob/master/Assets/store2.png) 
 
 - Página do produto, contendo as informações de cadastro, vendedor, avaliações, fotos e outros funcionalidades, como comprar e adicionar ao carrinho ou favoritos
 
-![Produto aberto](https://github.com/Domiuau/uaustore/blob/master/Assets/store3.jpg)
-![Aberto junto a outra imagem](https://github.com/Domiuau/uaustore/blob/master/Assets/store4.jpg) 
+![Produto aberto](https://github.com/Domiuau/uaustore/blob/master/Assets/store3.png)
+![Aberto junto a outra imagem](https://github.com/Domiuau/uaustore/blob/master/Assets/store4.png) 
 
 - Perfil de usuário, contendo informações da conta e acesso a outras áreas exclusivas do usuário, como itens anunciados e histórico de compras, onde é possivel avaliar uma compra anterior
-![Perfil de usuário](https://github.com/Domiuau/uaustore/blob/master/Assets/store5.jpg) 
+![Perfil de usuário](https://github.com/Domiuau/uaustore/blob/master/Assets/store5.png) 
 
 
 # Tecnologias utilizadas
