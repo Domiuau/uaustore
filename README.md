@@ -33,7 +33,7 @@
 - Abra o projeto pela IDE e execute normalmente
 - Após sua execução, a aplicação abrirá na seguinte tela de testes:
 
-![Perfil de usuário](https://github.com/Domiuau/uaustore/blob/master/Assets/store6.jpg) 
+![Perfil de usuário](https://github.com/Domiuau/uaustore/blob/master/Assets/store6.png) 
 
 - É necessário criar uma conta fictícia que virá com 100.000 reais, e após a sua criação, as outras funcionalidades irão funcionar
 
