@@ -19,6 +19,7 @@
 ![Aberto junto a outra imagem](https://github.com/Domiuau/uaustore/blob/master/Assets/store4.png) 
 
 - Perfil de usuário, contendo informações da conta e acesso a outras áreas exclusivas do usuário, como itens anunciados e histórico de compras, onde é possivel avaliar uma compra anterior
+
 ![Perfil de usuário](https://github.com/Domiuau/uaustore/blob/master/Assets/store5.png) 
 
 
